@@ -23,3 +23,9 @@ Consider an FMCW radar operating at 3.3GHz. Simulate a target at 25m. Use the te
 6. Range Doppler map:  
    Compute the 2D FFT of beat signal along Nr and Nd (both range and doppler cells)
 7. Doppler velocity = doppler freq * lambda / 2
+
+## Results:
+Range compression produces a target at 25m.  
+![Screenshot](Plots/TargetSimulation.png)  
+2D FFT gives the Range-Doppler Map with target at ~ 25m and velocity -2.5 m/s  
+![Screenshot](Plots/RDM.png)
