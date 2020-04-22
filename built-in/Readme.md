@@ -28,3 +28,13 @@ Range FFT Length : 1024 (fast time fft for range information)
 Doppler FFT Length: 512 (slow time fft for doppler information)  
 3. Plot the results.
 
+## Simultion results:
+![Screenshot](Plots/RadarSystem.png)
+ 
+  Case 1:  
+Both targets preserve Polarization. Therefore, Range Doppler Map captures both the targets (Target-1 at ~15km and Target-2 at ~35 km)  
+![Screenshot](Plots/Polarized_RDM1.png)  
+
+  Case 2:
+Target – 2 flips the polarization, while Target – 1 preserves polarization. Therefore, Range Doppler Map captures only one target (Target-1 at ~15km).  
+![Screenshot](Plots/Polarized_RDM2.png)
